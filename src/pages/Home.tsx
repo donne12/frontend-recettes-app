@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchRecettes } from '../services/api';
 import RecipeCard from '../components/RecipeCard';
-import { Loader } from '../components/Loader';
+import { Loader } from '../components/Loader.tsx';
 
 interface Recette {
   id: number;
