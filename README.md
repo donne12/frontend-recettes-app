@@ -32,8 +32,8 @@ Une application moderne et responsive de gestion de recettes de cuisine construi
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votreutilisateur/delices-culinaires-frontend.git
-   cd delices-culinaires-frontend
+   git clone https://github.com/donne12/frontend-recettes-app.git
+   cd frontend-recettes-app
    ```
 
 2. Installez les dépendances :
