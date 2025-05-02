@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import RecipeDetail from './pages/RecipeDetail.tsx';
+import CategoryPage from './pages/CategoryPage.tsx';
 import Navbar from './components/Navbar.tsx';
 import Footer from './components/Footer.tsx';
 
@@ -12,6 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/recette/:id" element={<RecipeDetail />} />
+          <Route path="/categories/:id" element={<CategoryPage />} />
         </Routes>
       </main>
       <Footer />
